@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fractal Sound Explorer (Browser Port</title>
+  <link rel="stylesheet" href="./styles.css">  
+  <script id="init" async src="./bundle.js"></script>
+  <style>
+    body { 
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+      height: 100vh; 
+      margin: 0; 
+      flex-direction: column; 
+      background-color: #000; 
+      color: #fff; 
+      overflow: hidden;  /* Hide overflow for aesthetics */
+    }
+    .canvas-container { 
+      position: relative; 
+      width: 100%; /* Full width */
+      height: 90vh; /* Occupies most of the viewport height */
+    }
+    #fractalCanvas { 
+      border: 1px solid black; 
+      cursor: crosshair; 
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+    }
+    .equation { 
+      text-align: center; 
+      margin-top: 20px; 
+      font-size: 1.5em; /* Adjust font size as needed */
+      color: #fff; /* Set equation color to white for better visibility */
+    }
+  </style>
+</head>
+<body>
+
+<div class="canvas-container">
+  <canvas id="fractalCanvas"></canvas>
+</div>
+
+<div class="equation" id="fractalEquation">
+  $$f(z) = z^2 + c$$
+</div>
+</body>
+</html>
