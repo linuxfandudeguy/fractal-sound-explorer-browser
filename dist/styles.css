@@ -1,1 +1,2 @@
+/* https://github.com/linuxfandudeguy/fractal-sound-explorer-browser_port/ --------- authored by linuxfandudeguy */
 body{display:flex;justify-content:center;align-items:center;height:100vh;margin:0;flex-direction:column;background-color:#000;color:#fff;overflow:hidden}.canvas-container{position:relative;width:100%;height:90vh}#fractalCanvas{border:1px solid #000;cursor:crosshair;width:100%;height:100%}.equation{text-align:center;margin-top:20px;font-size:1.5em;color:#fff}
