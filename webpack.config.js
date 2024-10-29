@@ -7,4 +7,5 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
   },
   mode: 'production',
+  devtool: 'source-map', 
 };
